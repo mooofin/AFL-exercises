@@ -217,7 +217,7 @@ Direct leak of 7 byte(s) in 1 object(s) allocated from:
 SUMMARY: AddressSanitizer: 7 byte(s) leaked in 1 allocation(s).
 ```
 
-
+AddressSanitizer exits on the first detected error. This is by design
 
 
 
