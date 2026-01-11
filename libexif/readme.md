@@ -147,3 +147,12 @@ make
 make install
 ```
 
+
+And fuzz it 
+
+```bash
+afl-fuzz -i $HOME/fuzzing_libexif/exif-samples-master/jpg/ -o $HOME/fuzzing_libexif/out/ -s 123 -- $HOME/fuzzing_libexif/install/bin/exif @@
+```
+
+<img width="1887" height="972" alt="image" src="https://github.com/user-attachments/assets/e4cfbcf2-e71c-43be-9554-24d2ee3ffa79" />
+
